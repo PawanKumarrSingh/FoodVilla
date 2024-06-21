@@ -56,3 +56,57 @@
   padding: 10px;
   background-color: lightgrey;
 }
+
+#restraunt_info > div {
+  padding: 10px;
+  margin: 20px;
+}
+
+#restraunt_info > div > img {
+  height: 400px;
+  width: 300px;
+  margin: 40px;
+}
+
+#restraunt_info > div > ul > img {
+  width: 50px;
+  height: 50px;
+}
+
+#restraunt_info {
+  display: flex;
+}
+
+#restraunt-menu > ul > li {
+  border-bottom: 2px solid grey;
+  list-style: none;
+}
+
+#restraunt-menu > ul > li > img {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+#restraunt-menu > ul > li > h3 {
+}
+
+#error-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#error-page > h3 {
+  text-align: center;
+}
+
+#error-page > button {
+  margin-left: 200px;
+  margin-top: 10px;
+  padding: 4px;
+  border-radius: 5px;
+  background-color: orangered;
+  color: white;
+}
